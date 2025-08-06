@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@tailwind utilities;
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+}
+.navbar {
+    background-color: #0275d8;
+    padding: 1rem;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.home-container {
+    text-align: center;
+    margin-top: 3rem;
+}
+.home-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
